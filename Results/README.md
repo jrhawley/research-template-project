@@ -5,9 +5,9 @@ For independent results, and to isolate the scope of work done for a particular 
 
 ```shell
 Results/
-|_ yyyy-mm-dd_result1/
-   |_ Snakefile         # Workflow control for generating all files in this folder
-   |_ README.md         # Description of the purpose of this result, what was done, and the 
+└── yyyy-mm-dd_result1/
+   ├── Snakefile         # Workflow control for generating all files in this folder
+   └── README.md         # Description of the purpose of this result, what was done, and the 
 ```
 
 [`snakemake`](https://bitbucket.org/snakemake/snakemake) is a good command line utility for data workflow control.
